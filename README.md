@@ -292,3 +292,20 @@ More information on BDD and jasmine.js can be viewed at http://pivotal.github.co
 
 A helpful walk-through is described here
 http://kilon.org/blog/2012/08/testing-backbone-requirejs-applications-with-jasmine/
+
+
+# React.js development for views
+
+This app now uses React.js in the views, more info can be found on facebook's github repo 
+https://facebook.github.io/react/
+
+add all the common react js from the 'getting started' section.
+
+to compile react using require, you will need to download the additional plugin
+https://github.com/seiffert/blog-articles/blob/master/pimp-my-backbone.view/examples/todolist-reactive-backbone/lib/jsx.js
+
+a good overview of react and backbone integration can be found on the blog of requirejs 
+http://blog.mayflower.de/3937-Backbone-React.html
+
+DOES NOT WORK YET, investigate the following
+http://stackoverflow.com/questions/23381561/using-reactjs-with-requirejs

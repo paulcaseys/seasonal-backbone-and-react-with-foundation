@@ -97,13 +97,18 @@ App.Data.GalleryData = 'resources/data/GalleryData.json' + '?ver=' + ((new Date(
             'cssplugin':        'resources/js/libs/tweenlite/CSSPlugin.min',
 
             // video-js (html5 video player, with swf fallback for old browsers)
-            'videojs':        'resources/js/libs/video-js/video.min',
+            'videojs':          'resources/js/libs/video-js/video.min',
 
             // code snippet library
-            'prism':        'resources/js/libs/prism/prism',
+            'prism':            'resources/js/libs/prism/prism',
 
             // handlebars templating solution, like moustache
-            'handlebars':        'resources/js/libs/handlebars/handlebars',
+            'handlebars':       'resources/js/libs/handlebars/handlebars',
+
+            // react.js for views
+            'jsx':              'resources/js/libs/react/jsx',
+            'JSXTransformer':   'resources/js/libs/react/JSXTransformer',
+            'react':            'resources/js/libs/react/react',
 
             // paths to app initialiser
             'AppInit':                              'resources/js/app/AppInit',
@@ -243,6 +248,11 @@ App.Data.GalleryData = 'resources/data/GalleryData.json' + '?ver=' + ((new Date(
 
         // handlebars templating solution, like moustache
         'handlebars',
+
+        // react.js for views
+        //'jsx',
+        //'JSXTransformer',
+        //'react',
 
         // paths to app initialiser
         'AppInit',

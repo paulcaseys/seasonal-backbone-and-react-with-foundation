@@ -14,7 +14,11 @@ define([
   // required libraries
   'jquery',
   'underscore',
-  'backbone'
+  'backbone'//,
+
+  // react
+  //'jsx',
+  //'JSXTransformer',
 
   // required collections
   //'App.Collections.HelloWorldCollection'
@@ -61,9 +65,19 @@ define([
 	    transitionIn: function () {	 
 	    	// adds eventlisteners     
 	    	this.addEventListeners();	
-
+	    	
 	    	// basic way to display element
 	    	$(this.el).show();  	
+	    	/*
+			var HelloMessage = React.createClass({
+				render: function() {
+					return <div>Hello {this.props.name}</div>;
+				}
+			});
+
+			React.render(<HelloMessage name="John" />, mountNode);
+			*/
+			console.log("HHHHMMM");
 	    },
 
     	// removes all eventlisteners
