@@ -16,6 +16,7 @@ define([
   'underscore',
   'backbone'//,
 
+  //'react', 'jsx!components/Timer'
   // react
   //'jsx',
   //'JSXTransformer',

@@ -299,6 +299,10 @@ http://kilon.org/blog/2012/08/testing-backbone-requirejs-applications-with-jasmi
 This app now uses React.js in the views, more info can be found on facebook's github repo 
 https://facebook.github.io/react/
 
+install the react tools with npm
+`sudo npm install -g react-tools`
+
+
 add all the common react js from the 'getting started' section.
 
 to compile react using require, you will need to download the additional plugin
@@ -309,3 +313,4 @@ http://blog.mayflower.de/3937-Backbone-React.html
 
 DOES NOT WORK YET, investigate the following
 http://stackoverflow.com/questions/23381561/using-reactjs-with-requirejs
+http://stackoverflow.com/questions/10196977/how-can-i-prevent-the-require-js-optimizer-from-including-the-text-plugin-in-opt
