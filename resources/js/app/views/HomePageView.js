@@ -14,8 +14,9 @@ define([
   // required libraries
   'jquery',
   'underscore',
-  'backbone'
-  
+  'backbone',
+  'react'
+
   //'react', 'jsx!components/Timer'
   // react
   //'jsx',
@@ -28,7 +29,7 @@ define([
   //'App.Models.HelloWorldModel'
 
 // require js: defines instances
-], function($, _, Backbone){
+], function($, _, Backbone, React){
 
 
 	var HomePageView = Backbone.View.extend({

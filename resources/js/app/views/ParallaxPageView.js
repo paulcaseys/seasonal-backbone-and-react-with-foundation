@@ -15,6 +15,7 @@ define([
   'jquery',
   'underscore',
   'backbone',
+  'react',
 
   // state menu model
   'App.Models.StateMenuModel',
@@ -41,7 +42,7 @@ define([
   //'App.Models.HelloWorldModel'
 
 // require js: defines instances
-], function($, _, Backbone, StateMenuModel){
+], function($, _, Backbone, React, StateMenuModel){
 
 
     var ParallaxPageView = Backbone.View.extend({

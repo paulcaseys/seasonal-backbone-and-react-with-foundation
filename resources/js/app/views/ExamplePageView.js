@@ -15,6 +15,7 @@ define([
   'jquery',
   'underscore',
   'backbone',
+  'react',
   'tweenlite'
 
   // required collections
@@ -24,7 +25,7 @@ define([
   //'App.Models.HelloWorldModel'
 
 // require js: defines instances
-], function($, _, Backbone){
+], function($, _, Backbone, React){
 
 
     var ExamplePageView = Backbone.View.extend({

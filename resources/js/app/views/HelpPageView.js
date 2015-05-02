@@ -15,6 +15,7 @@ define([
   'jquery',
   'underscore',
   'backbone',
+  'react',
 
   // state model
   'App.Models.StateModel',
@@ -34,7 +35,7 @@ define([
   //'App.Models.HelloWorldModel'
 
 // require js: defines instances
-], function($, _, Backbone, StateModel, StateMenuModel, HelpPanelView){
+], function($, _, Backbone, React, StateModel, StateMenuModel, HelpPanelView){
 
 
     var HelpPageView = Backbone.View.extend({

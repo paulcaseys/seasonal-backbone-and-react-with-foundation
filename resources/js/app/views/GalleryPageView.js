@@ -15,6 +15,7 @@ define([
   'jquery',
   'underscore',
   'backbone',
+  'react',
   'cosmosimageloader',
   'handlebars',
 
@@ -25,7 +26,7 @@ define([
   'App.Models.GalleryModel'
 
 // require js: defines instances
-], function($, _, Backbone, CosmosImageLoader, Handlebars, GalleryCollection, GalleryModel){
+], function($, _, Backbone, React, CosmosImageLoader, Handlebars, GalleryCollection, GalleryModel){
 
 
   var GalleryPageView = Backbone.View.extend({

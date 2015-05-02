@@ -29,14 +29,14 @@ define([
   'App.Collections.GalleryCollection',
 
   // required views
-  'App.Views.HomePageView',
-  'App.Views.GalleryPageView',
-  'App.Views.HelpPageView',
-  'App.Views.RaphaelPageView',
-  'App.Views.ParallaxPageView',
-  'App.Views.ExamplePageView',
-  'App.Views.VideoPageView',
-  'App.Views.SidemenuPageView'
+  'jsx!App.Views.HomePageView',
+  'jsx!App.Views.GalleryPageView',
+  'jsx!App.Views.HelpPageView',
+  'jsx!App.Views.RaphaelPageView',
+  'jsx!App.Views.ParallaxPageView',
+  'jsx!App.Views.ExamplePageView',
+  'jsx!App.Views.VideoPageView',
+  'jsx!App.Views.SidemenuPageView'
 
 
 

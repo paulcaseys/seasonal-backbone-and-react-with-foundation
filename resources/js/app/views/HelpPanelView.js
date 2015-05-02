@@ -66,14 +66,14 @@ define([
             // basic way to display element
             $(this.el).show();
 
-            console.log(React);
+            // example of react
             var HelloMessage = React.createClass({
               render: function() {
                 return <div>Hello {this.props.name}</div>;
               }
             });
 
-            var mountNode = $("#help-panel-1");
+            var mountNode = document.getElementById('help-panel-1');
             React.render(<HelloMessage name="John" />, mountNode);
 
         },

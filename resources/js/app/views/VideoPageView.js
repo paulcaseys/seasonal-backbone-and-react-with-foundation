@@ -15,6 +15,7 @@ define([
   'jquery',
   'underscore',
   'backbone',
+  'react',
 
   // state model
   'App.Models.StateModel',
@@ -23,7 +24,7 @@ define([
   'App.Models.StateMenuModel',
 
   // required views
-  'App.Views.VideoPanelView'
+  'jsx!App.Views.VideoPanelView'
 
 
   // required collections
@@ -33,7 +34,7 @@ define([
   //'App.Models.HelloWorldModel'
 
 // require js: defines instances
-], function($, _, Backbone, StateModel, StateMenuModel, VideoPanelView){
+], function($, _, Backbone, React, StateModel, StateMenuModel, VideoPanelView){
 
 
     var VideoPageView = Backbone.View.extend({

@@ -14,7 +14,8 @@ define([
   // required libraries
   'jquery',
   'underscore',
-  'backbone'//,
+  'backbone',
+  'react'
   //'raphael'
 
   // required collections
@@ -24,7 +25,7 @@ define([
   //'App.Models.HelloWorldModel'
 
 // require js: defines instances
-], function($, _, Backbone){
+], function($, _, Backbone, React){
 
 
     var RaphaelPageView = Backbone.View.extend({
