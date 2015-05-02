@@ -302,15 +302,17 @@ https://facebook.github.io/react/
 install the react tools with npm
 `sudo npm install -g react-tools`
 
-
 add all the common react js from the 'getting started' section.
 
-to compile react using require, you will need to download the additional plugin
-https://github.com/seiffert/blog-articles/blob/master/pimp-my-backbone.view/examples/todolist-reactive-backbone/lib/jsx.js
+to compile react using require, you will need to add the jsx plugin
+https://github.com/philix/jsx-requirejs-plugin
 
 a good overview of react and backbone integration can be found on the blog of requirejs 
 http://blog.mayflower.de/3937-Backbone-React.html
 
-DOES NOT WORK YET, investigate the following
+another good example
+https://github.com/seiffert/blog-articles/blob/master/pimp-my-backbone.view/examples/todolist-reactive-backbone/lib/jsx.js
+note: the above links is using an old version of react
+
+a good resource for debugging react with requirejs
 http://stackoverflow.com/questions/23381561/using-reactjs-with-requirejs
-http://stackoverflow.com/questions/10196977/how-can-i-prevent-the-require-js-optimizer-from-including-the-text-plugin-in-opt
