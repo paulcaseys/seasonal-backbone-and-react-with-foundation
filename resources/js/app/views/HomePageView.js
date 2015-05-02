@@ -14,8 +14,8 @@ define([
   // required libraries
   'jquery',
   'underscore',
-  'backbone'//,
-
+  'backbone'
+  
   //'react', 'jsx!components/Timer'
   // react
   //'jsx',

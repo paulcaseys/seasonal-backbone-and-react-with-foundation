@@ -23,7 +23,7 @@ define([
   'App.Models.StateMenuModel',
 
   // required views
-  'App.Views.HelpPanelView'
+  'jsx!App.Views.HelpPanelView'
 
 
   // required collections
