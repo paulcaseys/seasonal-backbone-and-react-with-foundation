@@ -249,7 +249,7 @@ require.config({
         // react.js for views
         //'jsx',
         //'JSXTransformer',
-        //'react',
+        'react',
 
         // paths to app initialiser
         'AppInit',
@@ -270,7 +270,7 @@ require.config({
         'App.Views.HomePageView',
         'App.Views.GalleryPageView',
         'App.Views.HelpPageView',
-        'App.Views.HelpPanelView',
+        'jsx!App.Views.HelpPanelView',
         'App.Views.RaphaelPageView',
         'App.Views.ParallaxPageView',
         'App.Views.ExamplePageView',

@@ -24,6 +24,7 @@ define([
 
   // required views
   'jsx!App.Views.HelpPanelView'
+  //'jsx!views/HelpPanelView'
 
 
   // required collections
@@ -66,6 +67,7 @@ define([
             App.Views.HelpPanelView3 = new HelpPanelView({el: '#help-panel-3'});
 
 
+
         },
 
 
@@ -89,6 +91,10 @@ define([
 
             // basic way to display element
             $(this.el).show();
+
+            
+            
+
         },
 
         // removes all eventlisteners

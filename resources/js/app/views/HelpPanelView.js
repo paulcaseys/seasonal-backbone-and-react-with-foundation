@@ -14,7 +14,8 @@ define([
   // required libraries
   'jquery',
   'underscore',
-  'backbone'
+  'backbone',
+  'react'
 
   // required collections
   //'App.Collections.HelloWorldCollection'
@@ -23,7 +24,7 @@ define([
   //'App.Models.HelloWorldModel'
 
 // require js: defines instances
-], function($, _, Backbone){
+], function($, _, Backbone, React){
 
 
     var HelpPanelView = Backbone.View.extend({
@@ -64,6 +65,17 @@ define([
 
             // basic way to display element
             $(this.el).show();
+
+            console.log(React);
+            var HelloMessage = React.createClass({
+              render: function() {
+                return <div>Hello {this.props.name}</div>;
+              }
+            });
+
+            var mountNode = $("#help-panel-1");
+            React.render(<HelloMessage name="John" />, mountNode);
+
         },
 
         // removes all eventlisteners
