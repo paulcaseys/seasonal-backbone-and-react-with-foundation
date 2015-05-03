@@ -70,15 +70,6 @@ require.config({
             // jquery easing
             'jquery.easing': 'resources/js/libs/jquery/jquery.easing',
 
-            // raphael
-            'raphael':  'resources/js/libs/raphael/raphael.min',
-
-            // waypoints (scrolling)
-            'waypoints':    'resources/js/libs/waypoints/waypoints.min',
-
-            // fixie (lorem ipsum generator)
-            'fixie':    'resources/js/libs/fixie/fixie.min',
-
             // modernizr (html5 conditional and tag correction)
             'modernizr':    'resources/js/libs/modernizr/modernizr.min',
 
@@ -101,12 +92,6 @@ require.config({
             // video-js (html5 video player, with swf fallback for old browsers)
             'videojs':          'resources/js/libs/video-js/video.min',
 
-            // code snippet library
-            'prism':            'resources/js/libs/prism/prism',
-
-            // handlebars templating solution, like moustache
-            'handlebars':       'resources/js/libs/handlebars/handlebars',
-
             // paths to app initialiser
             'AppInit':                              'resources/js/app/AppInit',
 
@@ -124,15 +109,9 @@ require.config({
 
             // paths to views
             'App.Views.HomePageView':           'resources/js/app/views/HomePageView',
-            'App.Views.GalleryPageView':        'resources/js/app/views/GalleryPageView',
             'App.Views.HelpPageView':           'resources/js/app/views/HelpPageView',
             'App.Views.HelpPanelView':          'resources/js/app/views/HelpPanelView',
-            'App.Views.RaphaelPageView':        'resources/js/app/views/RaphaelPageView',
-            'App.Views.ParallaxPageView':       'resources/js/app/views/ParallaxPageView',
             'App.Views.ExamplePageView':        'resources/js/app/views/ExamplePageView',
-            'App.Views.VideoPageView':          'resources/js/app/views/VideoPageView',
-            'App.Views.VideoPanelView':         'resources/js/app/views/VideoPanelView',
-            'App.Views.SidemenuPageView':       'resources/js/app/views/SidemenuPageView',
 
             // paths to collections
             'App.Collections.GalleryCollection':  'resources/js/app/collections/GalleryCollection',
@@ -153,21 +132,11 @@ require.config({
                 deps: ["underscore", "jquery"],
                 exports: "Backbone"
             },
-            'kendo.console': {
-                deps: ["jquery"]
-            },
-            'waypoints': {
-                deps: ["jquery"]
-            },
             'modernizr': {
                 deps: ["jquery"]
             },
             'jquery.easing': {
                 deps: ["jquery"]
-            },
-            'raphael': {
-                deps: ["jquery"],
-                exports: "raphael"
             },
             'cosmosimageloader': {
                 deps: ["jquery"],
@@ -188,9 +157,6 @@ require.config({
             'videojs': {
                 deps: ["jquery"],
                 exports: "videojs"
-            },
-            'handlebars': {
-                exports: 'Handlebars'
             }
 
     },
@@ -210,13 +176,6 @@ require.config({
         // jquery easing
         'jquery.easing',
 
-
-        // waypoints (scrolling)
-        'waypoints',
-
-        // fixie (lorem ipsum generator)
-        'fixie',
-
         // modernizr (html5 conditional and tag correction)
         'modernizr',
 
@@ -233,13 +192,6 @@ require.config({
 
         // video-js (html5 video player, with swf fallback for old browsers)
         'videojs',
-
-        // code snippet
-        'prism',
-
-        // handlebars templating solution, like moustache
-        'handlebars',
-
 
         // react.js for views
         'react',
@@ -261,15 +213,9 @@ require.config({
 
         // paths to views
         'jsx!App.Views.HomePageView',
-        'jsx!App.Views.GalleryPageView',
         'jsx!App.Views.HelpPageView',
         'jsx!App.Views.HelpPanelView',
-        'jsx!App.Views.RaphaelPageView',
-        'jsx!App.Views.ParallaxPageView',
         'jsx!App.Views.ExamplePageView',
-        'jsx!App.Views.VideoPageView',
-        'jsx!App.Views.VideoPanelView',
-        'jsx!App.Views.SidemenuPageView',
 
         // paths to collections
         'App.Collections.GalleryCollection',

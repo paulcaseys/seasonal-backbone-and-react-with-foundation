@@ -30,18 +30,13 @@ define([
 
   // required views
   'jsx!App.Views.HomePageView',
-  'jsx!App.Views.GalleryPageView',
   'jsx!App.Views.HelpPageView',
-  'jsx!App.Views.RaphaelPageView',
-  'jsx!App.Views.ParallaxPageView',
   'jsx!App.Views.ExamplePageView',
-  'jsx!App.Views.VideoPageView',
-  'jsx!App.Views.SidemenuPageView'
 
 
 
 // require js: defines instances
-], function($, _, Backbone, Router, ConfigModel, StateModel, StateMenuModel, GalleryModel, GalleryCollection, HomePageView, GalleryPageView, HelpPageView, RaphaelPageView, ParallaxPageView, ExamplePageView, VideoPageView, SidemenuPageView){
+], function($, _, Backbone, Router, ConfigModel, StateModel, StateMenuModel, GalleryModel, GalleryCollection, HomePageView, HelpPageView, ExamplePageView){
 
 
 
@@ -64,26 +59,16 @@ define([
 
       // initialises the views onto the page
       App.Views.HomePageView = new HomePageView();
-      App.Views.GalleryPageView = new GalleryPageView();
       App.Views.HelpPageView = new HelpPageView();
-      App.Views.RaphaelPageView = new RaphaelPageView();
-      App.Views.ParallaxPageView = new ParallaxPageView();
       App.Views.ExamplePageView = new ExamplePageView();
-      App.Views.VideoPageView = new VideoPageView();
-      App.Views.SidemenuPageView = new SidemenuPageView();
 
       // initialises the router
       Router.initialize();
 
       // calls eventlisteners in the view, as an example
       App.Views.HomePageView.trigger("testCall");
-      App.Views.GalleryPageView.trigger("testCall");
       App.Views.HelpPageView.trigger("testCall");
-      App.Views.RaphaelPageView.trigger("testCall");
-      App.Views.ParallaxPageView.trigger("testCall");
       App.Views.ExamplePageView.trigger("testCall");
-      App.Views.VideoPageView.trigger("testCall");
-      App.Views.SidemenuPageView.trigger("testCall");
 
       // hides the loading div (if it exists)
       if ($("#loading-page").length > 0){
