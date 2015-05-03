@@ -316,3 +316,22 @@ note: the above links is using an old version of react
 
 a good resource for debugging react with requirejs
 http://stackoverflow.com/questions/23381561/using-reactjs-with-requirejs
+
+# React.js boilerplate
+
+a good react-backbone boilerplate can be found in the repo called `reactjs-boilerplate`
+
+to start a new project with the boilerplate;
+
+  git init
+  git config remote.origin.url git@github.com:paulcaseys/seasonal-backbone-and-react-with-foundation.git
+  git pull origin master
+  git branch reactjs-boilerplate
+  git checkout reactjs-boilerplate
+  git pull origin reactjs-boilerplate
+  git config remote.origin.url [new repo name]
+  git checkout master
+  git merge dev
+  git push -u origin master
+
+
